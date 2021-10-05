@@ -1,8 +1,7 @@
 //Array con el listado de canciones a mostrar en el reprodutor
 const canciones = [
 "musica1.mp3",
-"amor.mp3",
-"1.mp3"
+
 
 ]
 var indiceActual = new Array(1)
