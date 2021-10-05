@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EDWAR CHINO</title>
+	<link href="style.css" rel="stylesheet"> <!--jalamos estilos -->
+	<link href="fontawesome/css/all.css" rel="stylesheet"> <!--estilos de carpeta fontawesome -->
+	<script defer src="fontawesome/js/all.js">
+		
+	</script> <!--javascrips de la carpeta fontawesone -->
+ <style type="text/css">
+      h3 { color: red ; font-size : 20px ; font-family : Arial; }
+      p { color: navy; font-family: Verdana; }
+   </style>
+   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+   <style>
+.resaltar{background-color:#FF0;}
+</style>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script> 
+<style>
+.resaltar{background-color:#FF0;}
+</style> 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</head>
+<body background="1111.gif"width="100%" height="100%">
+
+	<script src="searchhi.js" type="text/javascript"></script>
+<center>
+	 <img src="disco.png" class="rotated" width="500">
+</center>
+
+</div>	
+	<div id="controls">
+		<div class="timer" id="timer">
+			&nbsp;
+		</div>
+		<div class="volumen">
+			Vol: 
+			<i class="fas fa-volume-down"></i> 
+			<input type="range" name="volumen" id="volumen" min="0" max="1" step="0.01" value="0.75"> 
+			<i class="fas fa-volume-up"></i>
+		</div>
+		<center>
+		<i class="fas fa-backward fa-5x" onclick="prevMusic();"></i>
+		<i class="far fa-play-circle fa-5x" onclick="togglePlay();" id="iconPlay"></i> 
+		<i class="fas fa-forward fa-5x" onclick="nextMusic();"></i>
+		<br>
+		<span id="currentPlay"></span><br>
+		<progress id="progress" value="0" max="100" ></progress>
+		</center>
+		<audio id="player" ontimeupdate="updateProgress();">
+		<source  id="source">	
+		Audio no soportado	
+	</audio>
+		
+		<h3>Búsqueda de música:</h3> <div class="search">
+ 		<input type="text" id="busqueda" placeholder="artista, categoria">
+		 <i class="fa fa-search"></i>
+		 </div>
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</li>
+
+		<h3>Mi música</h3>
+		<div id="playList"></div>
+ 
+	
+	
+	
+	</div>
+	</div>
+	
+	<p style="font-weight:bold; font-style:italic; color:yellow;" ;>elaborado: <a href="https://www.facebook.com/people/Edward-Gary-Chino-Catari/100011121276160/"> 
+	<h3 style="font-weight:bold;">Edwar G. Chino Catari</h3></a></p>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
